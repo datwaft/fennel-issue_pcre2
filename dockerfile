@@ -22,7 +22,7 @@ RUN wget https://fennel-lang.org/downloads/fennel-0.10.0 -O fennel
 RUN chmod +x fennel
 
 # Copy test
-COPY test /root/test
+COPY repro /root/repro
 
 # Finish
 WORKDIR /root
