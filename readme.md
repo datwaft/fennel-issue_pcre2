@@ -4,9 +4,9 @@ This is a reproduction for a Fennel issue in which you cannot `require` a `.so` 
 
 In the case of this reproduction, the module used is [lrexlib](https://github.com/rrthomas/lrexlib), specifically the PCRE2 version.
 
-# How to execute the test
-
 ```sh
+docker build -t fennel-issue_pcre2 . && docker run -it fennel-issue_pcre2
+# Inside the Docker container
 cd repro
 fennel test.fnl
 ```
