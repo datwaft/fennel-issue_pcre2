@@ -7,6 +7,6 @@ In the case of this reproduction, the module used is [lrexlib](https://github.co
 # How to execute the test
 
 ```sh
-cd test
+cd repro
 fennel test.fnl
 ```
