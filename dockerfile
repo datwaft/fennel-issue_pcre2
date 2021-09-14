@@ -20,6 +20,7 @@ RUN luarocks install readline
 WORKDIR /usr/local/bin
 RUN wget https://fennel-lang.org/downloads/fennel-0.10.0 -O fennel
 RUN chmod +x fennel
+RUN luarocks install fennel
 
 # Copy test
 COPY repro /root/repro

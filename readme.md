@@ -8,5 +8,5 @@ In the case of this reproduction, the module used is [lrexlib](https://github.co
 docker build -t fennel-issue_pcre2 . && docker run -it fennel-issue_pcre2
 # Inside the Docker container
 cd repro
-fennel test.fnl
+lua test.lua
 ```
